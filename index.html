@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Inicio | POP!
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&amp;family=Fredoka:wght@300..700&amp;display=swap" rel="stylesheet"/>
+  <link href="estilos.css" rel="stylesheet"/>
+  <script defer="" src="datos.js">
+  </script>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip" href="#contenido">
+   Ir al contenido
+  </a>
+  <header class="site-header">
+   <a class="brand" href="index.html">
+    POP
+    <span>
+     !
+    </span>
+   </a>
+   <button aria-controls="nav" aria-expanded="false" class="menu-toggle">
+    ☰ MENÚ
+   </button>
+   <nav class="nav" id="nav">
+    <a class="active" href="index.html">
+     HOME
+    </a>
+    <a href="movimiento.html">
+     MOVIMIENTO
+    </a>
+    <a href="artistas.html">
+     ARTISTAS
+    </a>
+    <a href="obras.html">
+     OBRAS
+    </a>
+    <a href="galeria.html">
+     GALERÍA
+    </a>
+    <a href="contacto.html">
+     CONTACTO
+    </a>
+   </nav>
+  </header>
+  <main id="contenido">
+   <section class="hero">
+    <div class="hero-copy">
+     <p class="eyebrow">
+      ARTE · COLOR · CULTURA POP
+     </p>
+     <h1>
+      ¡ESTO ES
+      <br/>
+      <em>
+       POP ART!
+      </em>
+     </h1>
+     <p>
+      El arte que convirtió lo cotidiano en extraordinario.
+     </p>
+     <a class="btn" href="movimiento.html">
+      EXPLORAR ↗
+     </a>
+    </div>
+    <div class="hero-art">
+     <div class="burst">
+      WOW!
+     </div>
+     <span class="sticker star">
+      ★
+     </span>
+     <span class="sticker pow">
+      POW!
+     </span>
+    </div>
+   </section>
+   <section class="page-links">
+    <a class="page-link" href="movimiento.html">
+     <h2>
+      EL MOVIMIENTO ↗
+     </h2>
+     <p>
+      De los años cincuenta al legado contemporáneo.
+     </p>
+    </a>
+    <a class="page-link" href="artistas.html">
+     <h2>
+      ARTISTAS ↗
+     </h2>
+     <p>
+      Cuatro figuras fundamentales, sus trayectorias y sus obras.
+     </p>
+    </a>
+    <a class="page-link" href="obras.html">
+     <h2>
+      OBRAS ↗
+     </h2>
+     <p>
+      Diez piezas esenciales explicadas en detalle.
+     </p>
+    </a>
+    <a class="page-link" href="galeria.html">
+     <h2>
+      GALERÍA ↗
+     </h2>
+     <p>
+      Doce obras para explorar visualmente.
+     </p>
+    </a>
+    <a class="page-link" href="contacto.html">
+     <h2>
+      CONTACTO ↗
+     </h2>
+     <p>
+      Escribí un mensaje.
+     </p>
+    </a>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <strong>
+    POP!
+   </strong>
+   <span>
+    UN RECORRIDO POR EL POP ART
+   </span>
+   <a href="index.html">
+    VOLVER AL HOME ↑
+   </a>
+  </footer>
+  <dialog class="art-modal" id="art-modal">
+   <button aria-label="Cerrar" class="modal-close">
+    ×
+   </button>
+   <div class="modal-art photo-art" id="modal-art">
+   </div>
+   <div class="modal-copy">
+    <span id="modal-kicker">
+    </span>
+    <h2 id="modal-title">
+    </h2>
+    <p id="modal-description">
+    </p>
+    <p id="modal-detail">
+    </p>
+   </div>
+  </dialog>
+  <dialog class="gallery-modal" id="gallery-modal">
+   <button aria-label="Cerrar" class="gallery-modal-close">
+    ×
+   </button>
+   <img alt=""/>
+  </dialog>
+ </body>
+</html>

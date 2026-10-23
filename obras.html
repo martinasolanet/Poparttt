@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Obras principales | POP!
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&amp;family=Fredoka:wght@300..700&amp;display=swap" rel="stylesheet"/>
+  <link href="estilos.css" rel="stylesheet"/>
+  <script defer="" src="datos.js">
+  </script>
+  <script defer="" src="script.js">
+  </script>
+ </head>
+ <body>
+  <a class="skip" href="#contenido">
+   Ir al contenido
+  </a>
+  <header class="site-header">
+   <a class="brand" href="index.html">
+    POP
+    <span>
+     !
+    </span>
+   </a>
+   <button aria-controls="nav" aria-expanded="false" class="menu-toggle">
+    ☰ MENÚ
+   </button>
+   <nav class="nav" id="nav">
+    <a href="index.html">
+     HOME
+    </a>
+    <a href="movimiento.html">
+     MOVIMIENTO
+    </a>
+    <a href="artistas.html">
+     ARTISTAS
+    </a>
+    <a class="active" href="obras.html">
+     OBRAS
+    </a>
+    <a href="galeria.html">
+     GALERÍA
+    </a>
+    <a href="contacto.html">
+     CONTACTO
+    </a>
+   </nav>
+  </header>
+  <main id="contenido">
+   <div class="page-hero">
+    <span class="eyebrow">
+     ARTE · COLOR · CULTURA POP
+    </span>
+    <h1>
+     OBRAS PRINCIPALES
+    </h1>
+    <p>
+     Diez obras esenciales. Seleccioná una para leer su ficha completa.
+    </p>
+   </div>
+   <section class="section works">
+    <div class="works-grid" id="works-grid">
+    </div>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <strong>
+    POP!
+   </strong>
+   <span>
+    UN RECORRIDO POR EL POP ART
+   </span>
+   <a href="index.html">
+    VOLVER AL HOME ↑
+   </a>
+  </footer>
+  <dialog class="art-modal" id="art-modal">
+   <button aria-label="Cerrar" class="modal-close">
+    ×
+   </button>
+   <div class="modal-art photo-art" id="modal-art">
+   </div>
+   <div class="modal-copy">
+    <span id="modal-kicker">
+    </span>
+    <h2 id="modal-title">
+    </h2>
+    <p id="modal-description">
+    </p>
+    <p id="modal-detail">
+    </p>
+   </div>
+  </dialog>
+  <dialog class="gallery-modal" id="gallery-modal">
+   <button aria-label="Cerrar" class="gallery-modal-close">
+    ×
+   </button>
+   <img alt=""/>
+  </dialog>
+ </body>
+</html>
